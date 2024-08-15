@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/5cd9e64687.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <!-------------------------header------------------------------->
+       
+        <div id="header">
+                
+            <div class="container">
+                
+                <nav>
+                   <!-- <img src="images/logo.png" class="logo"> -->
+                    <h1><span id="logo">R</span>ohit.</h1>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    
+                </nav>
+                <div class="header-text">
+                    <p>Front end Developer</p>
+                    <h1>Hi, I'm <span>Rohit</span> Chourasiya <br>From India</h1>
+                </div>
+            </div>
+        </div>
+    </header><!--here the header section of the portfolio i completed-->
+
+     <!-------------------------About------------------------------->
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-column1">
+                    <img src="user1.jpg">
+                </div>
+                <div class="about-column2">
+                    <h1 class="sub-title">About <span style="color: #ff004f;">Me</span></h1>
+                    <p>"Hello! I'm Rohit Chourasiya, a passionate Engineering Student with a deep love for coding, problem-solving and all things tech-related. My goal is to leverage my programming skills and creativity to innovate and shape the future of technology. Excited to continue learning, growing, and shaping the future through engineering!" </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB TECHNOLOGIES</span><br>html,css,javascript </li>
+                            <li><span>PROGRAMMING SKILLS </span><br>c,c++</li>
+                            <li><span>OTHER</span><br>oops,mysql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>NO WORK EXPERIENCE</span><br> -fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>GRADUATION</span><br>Currently I am pursuing Bachelor of Technology in computer science from Mahakal Institute of Technology and Management, Ujjain.</li>
+                            <li><span>2021</span><br>I completed my higher secondary education from Saraswati H.S. School, Nagda.</li>
+                            <li><span>2019</span><br>I completed my High School education from Saraswati H.S. School, Nagda.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------------------------The about section is end here------------------------------------>
+
+<!--------------------------------------services section----------------------------------------->
+div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY <span style="color: #ff004f;">Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-end developer</h2>
+                <p>As a beginner front-end developer, I can design simple website HTMl,CSS ensuring they look good on all devices with responsive design techniques. I can add basic interactivity using javascript and customize the site's appearence with css. I also handle minor debugging, implement, basic SEO practices. Additionally, I can provide ongoing website maintainance, including updates and fixes.</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Back-end developer</h2>
+                <p>As a back-end developer with knowledge of C,C++ and MySQL, I can manage MySQl databases by setting up tables, running queries, and handling data storage and retrieval. I write server side applications in C,C++. I debug and test my C/C++ code to ensure that everything functions correctly. MY skills also allows me to write efficient code to optimize server performance and manage system resources effectively.</p>
+               
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Programmer</h2>
+                <p>I specialize in coding, transforming ideas into functional and efficient digital solutions. using programming languages like C,C++.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------services section is end here------------------------------>
+
+<!----------------------------portfolio ------------------------------>
+
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My <span style="color: #ff004f;">Projects</span></h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="project1.jpg">
+                <div class="layer">
+                    <h3>Flipkart Clone</h3>
+                    <p>The Flipkart clone project is designed to recreate the experience of the Flipkart e-commerce platform, specializing in fashion and lifestyle products.</p>
+                    <a href="https://rohitchourasiya909.github.io/Flipkart-Clone/"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="project2.jpg">
+                <div class="layer">
+                    <h3>Simple Calculator</h3>
+                    <p>The application is designed to handle basic calculations efficiently,providing a straightforward tool for performing everyday mathematical tasks. It features a user-friendly interface with buttons for each operation and display area to show the results.</p>
+                    <a href="https://rohitchourasiya909.github.io/Calculator/"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>      
+<!----------------------------------------portfolio section end here------------------------------------>
+
+<!------------------------------------Contact section--------------------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span style="color: #ff004f;">Me</span></h1>
+                <p><i class="fa-solid fa-paper-plane"></i><a style="text-decoration: none; color: white;" href="mailto:rohitchourasiya909@gmail.com"> rohitchourasiya909@gmail.com</a></p>
+                <p> <i class="fa-solid fa-phone-volume"></i> 9893565938</p><br>
+                <div class="social-icons">
+                    
+                    <a href="https://www.linkedin.com/in/rohit-chourasiya-172359270"><i class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="https://www.instagram.com/rohit_chourasiya_909"><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href="https://github.com/RohitChourasiya909"><i class="fa-brands fa-github"></i></a>
+
+                    <a href="http://t.me/Rohit_Chourasiya_909"><i class="fa-brands fa-telegram"></i></a>
+
+                </div>
+                <a href="myresume.pdf" download class=" btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Full Name" required>
+                    <input type="email" name="Email" placeholder="Email Address"  required>
+                    <input type="text" name="Mobile no." placeholder="Mobile Number" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="lastmsg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2024 by Rohit <i class="fa-solid fa-heart"></i> All Rights Reserved.</p>
+    </div>
+</div>
+<script src="index.js"></script>
+
+</body>
+</html>
+    
